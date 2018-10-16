@@ -7,3 +7,6 @@ it('renders without crashing', () => {
   ReactDOM.render(<App />, div);
   ReactDOM.unmountComponentAtNode(div);
 });
+it('says 1 is 1', () => {
+  expect(1).toBe(1);
+});
